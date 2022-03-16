@@ -1,7 +1,7 @@
 https://programmers.co.kr/learn/courses/30/lessons/12950
 
 function solution(arr1, arr2) {
-    var answer = [[]];
+    let answer = [[]];
     for (let i in arr1) {
         answer[i] =[];
         for (let j in arr1[i]){
